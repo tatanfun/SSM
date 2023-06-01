@@ -482,7 +482,7 @@
 					<tbody>
 						<tr>
 							<td><input type="checkbox" /></td>
-							<td><a style="text-decoration: none; cursor: pointer;" onclick="window.location.href='workbench/clue/detailClue.do?id=4f479e6f50fe418f8c840af979d6ff31';">郑叫兽</a></td>
+							<td><a style="text-decoration: none; cursor: pointer;" onclick="window.location.href='workbench/clue/detailClue.do?id=01631ab06ed441ffa0228eb7d7a17ed8';">郑叫兽</a></td>
 							<td>某国企</td>
 							<td>010-84846003</td>
 							<td>12345678901</td>

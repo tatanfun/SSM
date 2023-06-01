@@ -55,6 +55,7 @@ public interface ActivityRemarkMapper {
 
     /**
      * 根据activityId查询该市场活动下所有备注的明细信息
+     * @param activityId
      * @return
      */
     List<ActivityRemark> selectActivityRemarkForDetailByActivityId(String activityId);
@@ -74,10 +75,9 @@ public interface ActivityRemarkMapper {
     int deleteActivityRemarkById(String id);
 
     /**
-     * 保存市场活动备注
+     * 保存修改的市场活动备注
      * @param remark
      * @return
      */
     int updateActivityRemark(ActivityRemark remark);
-
 }

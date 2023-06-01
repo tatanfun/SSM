@@ -6,8 +6,307 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10810403-97cf-452b-a36b-0716603c8561" name="Default Changelist" comment="">
+    <list default="true" id="10810403-97cf-452b-a36b-0716603c8561" name="Default Changelist" comment="添加线索、查看线索明细">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9c8c5d03-caaf-4969-a7a0-cfcc9ff2361c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm-mybatis-generator/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm-mybatis-generator/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm-mybatis-generator/target/classes/generator.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm-mybatis-generator/target/classes/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityRemarkMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityRemarkMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueRemarkMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueRemarkMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/ActivityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/ClueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/ClueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ActivityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ActivityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ClueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ClueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/web/controller/ClueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/java/crm/workbench/web/controller/ClueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/convert.html" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/convert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/classes/crm/workbench/mapper/ActivityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/crm/workbench/mapper/ActivityMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/classes/crm/workbench/mapper/ActivityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/crm/workbench/mapper/ActivityMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/classes/crm/workbench/service/ActivityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/crm/workbench/service/ActivityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/classes/crm/workbench/service/impl/ActivityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/classes/crm/workbench/service/impl/ActivityServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/crm/workbench/mapper/ActivityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/crm/workbench/mapper/ActivityMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/crm/workbench/mapper/ActivityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/crm/workbench/mapper/ActivityMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/crm/workbench/service/ActivityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/crm/workbench/service/ActivityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/crm/workbench/service/impl/ActivityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/crm/target/crm/WEB-INF/classes/crm/workbench/service/impl/ActivityServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crm/target/crm/WEB-INF/pages/workbench/clue/convert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/.idea/artifacts/mimissm_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/.idea/dataSources/0d0f14e6-6a5d-44ab-941b-f6496d9fc62d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/.idea/dataSources/82a5ccda-06a5-48a2-890d-ac53e180f7bd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/controller/AdminAciton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/controller/ProductInfoAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/listener/ProductTypeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/mapper/AdminMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/mapper/AdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/mapper/ProductInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/mapper/ProductInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/mapper/ProductTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/mapper/ProductTypeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/pojo/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/pojo/AdminExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/pojo/ProductInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/pojo/ProductInfoExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/pojo/ProductType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/pojo/ProductTypeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/pojo/vo/ProductInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/service/AdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/service/ProductInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/service/ProductTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/service/impl/AdminServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/service/impl/ProductInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/service/impl/ProductTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/utils/FileNameUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/java/utils/MD5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/resources/SqlMapConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/resources/applicationContext_dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/resources/applicationContext_service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/resources/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/admin/addproduct.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/admin/err.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/admin/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/admin/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/admin/product.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/admin/regist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/admin/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/css/addBook.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/css/bright.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/bzqd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/carshop_tj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/foot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/hm4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/hm4X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/hmNote4X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/hmNote5A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index2_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index2_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index_top1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index_top2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index_top3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/index_top4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/milogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/milogo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/mxdp_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/mxdp_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/mxdp_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/mxdp_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/mxdp_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/register.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/rightmenu1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/rightmenu10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/rightmenu2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/rightmenu3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/rightmenu4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/rightmenu5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/rightmenu6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/rightmenu7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/rightmenu8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/rightmenu9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/sbfw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xm5X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xm6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xmAir12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xmAir13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xmMAX2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xmMIX2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xmNote2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xmNote3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xmPad3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xmPro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xmTV4-49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xmTV4-55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xmTV4-65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xmTV4A-43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image/xmTV4A-49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/12903ec8298046a39b43fb339569da0f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/2557d5a816b94863a7a2f380fb388687.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/33c944311f904ff98ea63ff8eddbdabc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/3c1c4296260f45b5b6acbe0e3f0649e4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/493bfe861c04456484bbd07a44411c80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/778cc0b0436e4160a43460d4c35c59d8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/dc425548c8164c4ca54595e4fcdfb348.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/hm4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/hm4X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/hmNote4X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/hmNote5A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xm5X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xm6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xmAir12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xmAir13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xmMAX2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xmMIX2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xmNote2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xmNote3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xmPad3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xmPro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xmTV4-49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xmTV4-55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xmTV4-65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xmTV4A-43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_big/xmTV4A-49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_comm/comment.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_comm/hm4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_comm/hm4X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_comm/hmNote4X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_comm/hmNote5A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_comm/xm5X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_comm/xm6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_comm/xmMAX2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_comm/xmMIX2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_comm/xmNote2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/image_comm/xmNote3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/imagecanshu/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/imagecanshu/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/imagecanshu/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/imagedetail/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/imagedetail/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/imagedetail/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/08056880d6ce4db6a063471ae71fc045.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/317524aa81324690b8b34df7b2a71a9c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/4ab3304a147545879c864f06e7cf7b59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/54941e9cb9a540ed9df0c8bd2ba59543.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/5fd17930911f4a73ba7cf4597d7bcc03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/6086ebd4ca654d31980e944ec436aed6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/67bc18da3ae44fea8f08297b3e48c226.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/6d520407fa0b488e985c62abd4c002b7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/71552c4559df40559ff5f1bf62c480d9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/761c647d4ec240a69531b5588323fa13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/84fac438d6104665bfe951ce78470c11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/8e06ae695f544dffa28be97ab4304094.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/a1c9f14c85e3428e965033341b047d0d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/a3063f5ac16f4ec78b93baccd5c3184c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/a92fc4b832e74635a775ce874d601797.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/b408c86f726148dda9377ee4b8c05b60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/b823ebfe929d4f4e8f7524f16c2a5d88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/bzqd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/c428c9988906406280eab76b7c0f9d75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/carshop_tj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/cc4e866276f6416485b2d0ba5fd87c32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/cce20331985b434492dbe4a7d31e6e1f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/cloud.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/dc05bc831f084d4bbc9f3a5936f93c75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/dc49adecce6b4e07a900be8bb298c257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/f202f5cec26d4f7292d4958521a6d3ac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/f9f55bb158554c5083cac091c98b335d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/foot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/hm4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/hm4X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/hmNote4X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/hmNote5A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index2_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index2_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index_top1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index_top2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index_top3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/index_top4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/milogo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/milogo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/mxdp_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/mxdp_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/mxdp_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/mxdp_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/mxdp_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/register.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/rightmenu1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/rightmenu10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/rightmenu2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/rightmenu3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/rightmenu4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/rightmenu5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/rightmenu6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/rightmenu7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/rightmenu8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/rightmenu9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/sbfw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/timg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xm5X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xm6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xmAir12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xmAir13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xmMAX2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xmMIX2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xmNote2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xmNote3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xmPad3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xmPro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xmTV4-49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xmTV4-55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xmTV4-65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xmTV4A-43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/images/xmTV4A-49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/js/ajaxfileupload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/js/jquery-1.8.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/js/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/js/myjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/main/webapp/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/test/java/com/bjpowernode/MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mimissm/mimissm/src/test/java/com/bjpowernode/utils/MyTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/crm/target/" />
@@ -29,7 +328,37 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm2008@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm2008@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm2008@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="crm2008: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm2008@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="crm2008: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tbl_contacts_remark: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm2008@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="crm2008: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tbl_tran: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FavoritesManager">
@@ -37,41 +366,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/qx/user/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="49" column="55" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/index.jsp">
+        <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/web/controller/ClueController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="-2380">
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2275">
+              <caret line="65" column="32" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="32" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="322" column="49" lean-forward="true" selection-start-line="322" selection-start-column="49" selection-end-line="322" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ActivityRemarkServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crm/src/main/resources/applicationContext-datasource.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/detail.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9310">
+              <caret line="266" column="120" selection-start-line="266" selection-start-column="109" selection-end-line="266" selection-end-column="120" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/convert.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3465">
+              <caret line="99" column="52" selection-start-line="99" selection-start-column="52" selection-end-line="99" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16940">
+              <caret line="484" column="178" selection-start-line="484" selection-start-column="178" selection-end-line="484" selection-end-column="178" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/TranRemarkMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6020">
+              <caret line="172" column="111" selection-start-line="172" selection-start-column="111" selection-end-line="172" selection-end-column="111" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ContactsMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2030">
+              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -86,22 +474,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#queryActivityBtn</find>
-      <find>demo-pag1</find>
-      <find>query-endDate</find>
-      <find>rowsPerPage</find>
-      <find>query-name</find>
-      <find>queryActivityBtn</find>
-      <find>bs_pagination</find>
-      <find>demo_pag1</find>
-      <find>tBody</find>
-      <find>chckAll</find>
-      <find>editActivityModal</find>
-      <find>hidden</find>
-      <find>artifact</find>
-      <find>activityFile</find>
-      <find>insertActivity</find>
-      <find>importActivity</find>
       <find>saveCreateActivityByList</find>
       <find>selectActivityByConditionForPage</find>
       <find>queryActivityByConditionForPage</find>
@@ -116,6 +488,22 @@
       <find>remarkDiv</find>
       <find>saveCreateActivityRemarkBrn</find>
       <find>&quot;&lt;h5&gt;&quot;+data.retData.noteContent+&quot;&lt;/h5&gt;&quot;;</find>
+      <find>线索</find>
+      <find>保存</find>
+      <find>创建</find>
+      <find>线索来源</find>
+      <find>市场活动</find>
+      <find>线索状态</find>
+      <find>国企</find>
+      <find>tBody</find>
+      <find>键盘弹</find>
+      <find>转换</find>
+      <find>CustomerRemarkMapper</find>
+      <find>insertCustomerRemarkByList</find>
+      <find>在叫</find>
+      <find>每页</find>
+      <find>叫兽</find>
+      <find>crList</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -127,51 +515,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/index.jsp" />
-        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/index.html" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/commons/domain/utils/DateUtils.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/web/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/settings/domain/User.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/qx/user/login.jsp" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/commons/contents/contants.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/settings/web/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/web/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/main/index.html" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/web/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/settings/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/settings/service/UserService.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/settings/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/activity/index.html" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/settings/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/crm/src/main/resources/applicationContext-datasource.xml" />
-        <option value="$PROJECT_DIR$/crm/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/crm/src/test/java/com/uuid/UUIDTest.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/commons/domain/utils/UUIDUtils.java" />
-        <option value="$PROJECT_DIR$/crm/pom.xml" />
-        <option value="$PROJECT_DIR$/crm/src/main/resources/applicationContext-mvc.xml" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/commons/domain/utils/HSSFUtils.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/commons/utils/HSSFUtils.java" />
-        <option value="$PROJECT_DIR$/crm-mybatis-generator/target/classes/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/ActivityService.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/web/controller/WorkbenchIndexController.java" />
-        <option value="$PROJECT_DIR$/crm-mybatis-generator/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityMapper.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityMapper.xml" />
-        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/index.jsp" />
-        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/activity/detail.html" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/commons/contents/Contants.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/commons/domain/ReturnObject.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/activity/index.jsp" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/web/controller/ActivityController.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ActivityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityRemarkMapper.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/ActivityRemarkService.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ActivityRemarkServiceImpl.java" />
         <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/web/controller/ActivityRemarkController.java" />
-        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityRemarkMapper.xml" />
         <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/activity/detail.jsp" />
         <option value="$PROJECT_DIR$/crm-mybatis-generator/pom.xml" />
         <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/contacts/detail.html" />
+        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/index.html" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/settings/mapper/DicValueMapper.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/settings/service/DicValueService.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/settings/service/impl/DicValueServiceImpl.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/index.jsp" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/settings/mapper/DicValueMapper.xml" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/ClueRemarkService.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ClueRemarkServiceImpl.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/detail.html" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/ClueActivityRelationService.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ClueActivityRelationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/convert.html" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityMapper.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/ActivityService.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityMapper.xml" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/CustomerMapper.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ContactsMapper.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ContactsMapper.xml" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/commons/contents/Contants.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ContactsRemarkMapper.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ContactsActivityRelationMapper.java" />
+        <option value="$PROJECT_DIR$/crm-mybatis-generator/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/TranRemarkMapper.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueActivityRelationMapper.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/CustomerMapper.xml" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueRemarkMapper.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/CustomerRemarkMapper.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueMapper.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueRemarkMapper.xml" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/CustomerRemarkMapper.xml" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueActivityRelationMapper.xml" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ContactsActivityRelationMapper.xml" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/TranMapper.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/TranMapper.xml" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ActivityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityRemarkMapper.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ActivityRemarkServiceImpl.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityRemarkMapper.xml" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ContactsRemarkMapper.xml" />
+        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/convert.jsp" />
+        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/detail.jsp" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/ClueService.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/web/controller/ClueController.java" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueMapper.xml" />
+        <option value="$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/index.jsp" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/TranRemarkMapper.xml" />
+        <option value="$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ClueServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -198,23 +592,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="crm-mybatis-generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="crm-mybatis-generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="crm-mybatis-generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -223,18 +601,18 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="874" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1039" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,6 +653,87 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="workbench" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="workbench" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="workbench" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="workbench" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="workbench" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,56 +742,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-              <item name="qx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-              <item name="qx" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="workbench" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
@@ -343,6 +756,51 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="workbench" type="462c0819:PsiDirectoryNode" />
+              <item name="clue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="workbench" type="462c0819:PsiDirectoryNode" />
+              <item name="contacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="workbench" type="462c0819:PsiDirectoryNode" />
+              <item name="customer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="workbench" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="workbench" type="462c0819:PsiDirectoryNode" />
+              <item name="transaction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
@@ -366,23 +824,21 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="crm-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm-mybatis-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1684027059609" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/crm-mybatis-generator/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1685540474940" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../crm2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -393,6 +849,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\28688\IdeaProjects\crm-project\crm\src\main\java\crm\workbench\mapper" />
       <recent name="C:\Users\28688\IdeaProjects\crm-project" />
       <recent name="C:\Users\28688\IdeaProjects\crm-project\crm" />
     </key>
@@ -550,6 +1007,19 @@
       <workItem from="1683685049503" duration="16592000" />
       <workItem from="1683956526253" duration="1142000" />
       <workItem from="1683974666442" duration="1460000" />
+      <workItem from="1684941941249" duration="10402000" />
+      <workItem from="1685000872984" duration="6273000" />
+      <workItem from="1685016319929" duration="10146000" />
+      <workItem from="1685063682187" duration="36022000" />
+      <workItem from="1685257490107" duration="491000" />
+      <workItem from="1685260671638" duration="7600000" />
+      <workItem from="1685323952002" duration="37617000" />
+      <workItem from="1685447039433" duration="12047000" />
+      <workItem from="1685459236512" duration="2217000" />
+      <workItem from="1685461678171" duration="1702000" />
+      <workItem from="1685463485040" duration="2490000" />
+      <workItem from="1685513414023" duration="14120000" />
+      <workItem from="1685602426421" duration="1968000" />
     </task>
     <task id="LOCAL-00001" summary="one">
       <created>1683956766408</created>
@@ -558,11 +1028,25 @@
       <option name="project" value="LOCAL" />
       <updated>1683956766408</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加线索、查看线索明细">
+      <created>1685198603779</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685198603779</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加线索、查看线索明细">
+      <created>1685198848911</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685198848911</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="380453000" />
+    <option name="totallyTimeSpent" value="523548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,7 +1061,7 @@
     <frame x="-8" y="-8" width="1936" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945354" visible="true" weight="0.17910448" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945354" visible="true" weight="0.13646056" />
       <window_info id="Structure" order="1" sideWeight="0.50054646" side_tool="true" weight="0.19722815" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -585,34 +1069,35 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50185186" side_tool="true" weight="0.19722815" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32896176" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32822758" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32896176" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32896176" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32896176" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32932165" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32932165" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32822758" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.5317287" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.19584244" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32822758" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32932165" />
+      <window_info anchor="bottom" id="Application Servers" order="9" weight="0.512035" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32932165" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32822758" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.32622603" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945354" visible="true" weight="0.17590618" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945354" weight="0.20202559" />
       <window_info id="Structure" order="1" sideWeight="0.50054646" side_tool="true" weight="0.19722815" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -620,31 +1105,32 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50185186" side_tool="true" weight="0.19722815" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32896176" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43715847" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32896176" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32896176" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32896176" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32932165" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32822758" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.4463895" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.1963964" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32896176" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32896176" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32932165" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32896176" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.32622603" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -692,481 +1178,422 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="one" />
-    <option name="LAST_COMMIT_MESSAGE" value="one" />
+    <MESSAGE value="添加线索、查看线索明细" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加线索、查看线索明细" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/maven/maven_work/apache-maven-3.3.9/maven_repository/org/apache/poi/poi/3.15/poi-3.15.jar!/org/apache/poi/hssf/usermodel/HSSFRichTextString.class">
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/CustomerMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="398">
+          <caret line="230" column="150" selection-start-line="230" selection-start-column="143" selection-end-line="230" selection-end-column="150" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/maven_work/apache-maven-3.3.9/maven_repository/org/apache/poi/poi/3.15/poi-3.15.jar!/org/apache/poi/hssf/record/aggregates/ColumnInfoRecordsAggregate.class">
+    <entry file="file://$PROJECT_DIR$/crm/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="392" selection-start-line="392" selection-end-line="392" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/maven_work/apache-maven-3.3.9/maven_repository/org/apache/poi/poi/3.15/poi-3.15.jar!/org/apache/poi/hssf/model/InternalSheet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="647" selection-start-line="647" selection-end-line="647" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/maven_work/apache-maven-3.3.9/maven_repository/org/apache/poi/poi/3.15/poi-3.15.jar!/org/apache/poi/hssf/usermodel/HSSFSheet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="552" selection-start-line="552" selection-end-line="552" />
-          <folding>
-            <element signature="e#20035#20036#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/maven_work/apache-maven-3.3.9/maven_repository/org/apache/poi/poi/3.15/poi-3.15.jar!/org/apache/poi/hssf/usermodel/HSSFCell.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="76" column="94" lean-forward="true" selection-start-line="76" selection-start-column="94" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/maven_work/apache-maven-3.3.9/maven_repository/org/apache/poi/poi/3.15/poi-3.15.jar!/org/apache/poi/hssf/usermodel/HSSFRow.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1552#1553#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/maven_work/apache-maven-3.3.9/maven_repository/org/springframework/spring-web/4.3.9.RELEASE/spring-web-4.3.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        <state relative-caret-position="210">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crm/src/main/resources/applicationContext-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm-mybatis-generator/target/classes/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm-mybatis-generator/src/main/resources/generator.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/web/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/settings/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/settings/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/settings/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/settings/web/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/settings/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/settings/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3020">
-          <caret line="307" column="18" selection-start-line="307" selection-start-column="18" selection-end-line="307" selection-end-column="18" />
-          <folding>
-            <element signature="e#3271#3272#0" expanded="true" />
-            <element signature="e#3296#3297#0" expanded="true" />
-            <element signature="e#3579#3580#0" expanded="true" />
-            <element signature="e#3634#3635#0" expanded="true" />
-            <element signature="e#3930#3931#0" expanded="true" />
-            <element signature="e#3961#3962#0" expanded="true" />
-            <element signature="e#4276#4277#0" expanded="true" />
-            <element signature="e#4349#4350#0" expanded="true" />
-            <element signature="e#4631#4632#0" expanded="true" />
-            <element signature="e#4658#4659#0" expanded="true" />
-            <element signature="e#4951#4952#0" expanded="true" />
-            <element signature="e#5012#5013#0" expanded="true" />
-            <element signature="e#5308#5309#0" expanded="true" />
-            <element signature="e#5339#5340#0" expanded="true" />
-            <element signature="e#5654#5655#0" expanded="true" />
-            <element signature="e#5727#5728#0" expanded="true" />
-            <element signature="e#6012#6013#0" expanded="true" />
-            <element signature="e#6040#6041#0" expanded="true" />
-            <element signature="e#6338#6339#0" expanded="true" />
-            <element signature="e#6402#6403#0" expanded="true" />
-            <element signature="e#6704#6705#0" expanded="true" />
-            <element signature="e#6737#6738#0" expanded="true" />
-            <element signature="e#7062#7063#0" expanded="true" />
-            <element signature="e#7141#7142#0" expanded="true" />
-            <element signature="e#7440#7441#0" expanded="true" />
-            <element signature="e#7472#7473#0" expanded="true" />
-            <element signature="e#7792#7793#0" expanded="true" />
-            <element signature="e#7868#7869#0" expanded="true" />
-            <element signature="e#8156#8157#0" expanded="true" />
-            <element signature="e#8185#8186#0" expanded="true" />
-            <element signature="e#8488#8489#0" expanded="true" />
-            <element signature="e#8555#8556#0" expanded="true" />
-            <element signature="e#8851#8852#0" expanded="true" />
-            <element signature="e#8882#8883#0" expanded="true" />
-            <element signature="e#9197#9198#0" expanded="true" />
-            <element signature="e#9270#9271#0" expanded="true" />
-            <element signature="e#9570#9571#0" expanded="true" />
-            <element signature="e#9603#9604#0" expanded="true" />
-            <element signature="e#9926#9927#0" expanded="true" />
-            <element signature="e#10005#10006#0" expanded="true" />
-            <element signature="e#10301#10302#0" expanded="true" />
-            <element signature="e#10332#10333#0" expanded="true" />
-            <element signature="e#10647#10648#0" expanded="true" />
-            <element signature="e#10720#10721#0" expanded="true" />
-            <element signature="e#11016#11017#0" expanded="true" />
-            <element signature="e#11047#11048#0" expanded="true" />
-            <element signature="e#11362#11363#0" expanded="true" />
-            <element signature="e#11435#11436#0" expanded="true" />
-            <element signature="e#11725#11726#0" expanded="true" />
-            <element signature="e#11754#11755#0" expanded="true" />
-            <element signature="e#12059#12060#0" expanded="true" />
-            <element signature="e#12126#12127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm-mybatis-generator/crm-mybatis-generator.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm-mybatis-generator/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5156">
-          <caret line="152" column="78" selection-start-line="152" selection-start-column="78" selection-end-line="152" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/domain/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8540">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/main/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2240">
-          <caret line="64" column="14" lean-forward="true" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/crm/target/crm/WEB-INF/lib/servlet-api-2.5.jar!/javax/servlet/http/HttpSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/domain/ActivityRemark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="231" column="16" selection-start-line="231" selection-start-column="16" selection-end-line="231" selection-end-column="16" />
-          <folding>
-            <element signature="e#4157#4158#0" expanded="true" />
-            <element signature="e#4236#4237#0" expanded="true" />
-            <element signature="e#7175#7176#0" expanded="true" />
-            <element signature="e#7248#7249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/commons/utils/UUIDUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="10" column="63" lean-forward="true" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/web/controller/WorkbenchIndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/web/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/commons/utils/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/commons/utils/HSSFUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/activity/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="342" column="151" selection-start-line="342" selection-start-column="137" selection-end-line="342" selection-end-column="151" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#td#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1012" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="293" column="32" selection-start-line="293" selection-start-column="32" selection-end-line="293" selection-end-column="32" />
+        <state relative-caret-position="377">
+          <caret line="338" column="14" lean-forward="true" selection-start-line="338" selection-start-column="14" selection-end-line="338" selection-end-column="14" />
           <folding>
             <element signature="e#7814#7818#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/maven_work/apache-maven-3.3.9/maven_repository/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar!/org/mybatis/spring/MyBatisExceptionTranslator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/maven_work/apache-maven-3.3.9/maven_repository/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar!/org/mybatis/spring/SqlSessionTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+          <folding>
+            <element signature="e#5069#5070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/maven_work/apache-maven-3.3.9/maven_repository/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6580">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ClueActivityRelationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueRemarkMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="67" column="45" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/CustomerRemarkMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="173" column="14" lean-forward="true" selection-start-line="173" selection-start-column="14" selection-end-line="173" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/CustomerRemarkMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ContactsRemarkMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/maven_work/apache-maven-3.3.9/maven_repository/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/binding/MapperRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/TranMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2030">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/TranMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9555">
+          <caret line="273" column="34" selection-start-line="273" selection-start-column="34" selection-end-line="273" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/TranRemarkMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm-mybatis-generator/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="173" column="81" selection-start-line="173" selection-start-column="81" selection-end-line="173" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/domain/TranRemark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7664">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="-4234">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/ClueActivityRelationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/ActivityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ActivityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1747#1748#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/web/controller/ActivityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="322" column="38" selection-start-line="322" selection-start-column="38" selection-end-line="322" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/web/controller/ActivityRemarkController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2800">
-          <caret line="93" column="47" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/activity/detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5565">
-          <caret line="159" column="22" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm-mybatis-generator/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/ActivityRemarkService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        <state relative-caret-position="315">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/domain/Contacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/com/sun/jmx/interceptor/DefaultMBeanServerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="818" selection-start-line="818" selection-end-line="818" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/domain/ClueActivityRelation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2870">
+          <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+          <folding>
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1858#1859#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueRemarkMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueActivityRelationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2590">
+          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ActivityRemarkServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueActivityRelationMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+        <state relative-caret-position="35">
+          <caret line="1" column="92" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/domain/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/maven_work/apache-maven-3.3.9/maven_repository/mysql/mysql-connector-java/5.1.43/mysql-connector-java-5.1.43.jar!/com/mysql/jdbc/AbandonedConnectionCleanupThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ActivityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityRemarkMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="80" column="28" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="28" />
+        <state relative-caret-position="207">
+          <caret line="81" column="28" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityRemarkMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="188" column="92" lean-forward="true" selection-start-line="188" selection-start-column="92" selection-end-line="188" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ContactsActivityRelationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ActivityRemarkMapper.xml">
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ContactsActivityRelationMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6580">
-          <caret line="188" column="18" selection-start-line="188" selection-start-column="18" selection-end-line="188" selection-end-column="18" />
+        <state relative-caret-position="508">
+          <caret line="117" column="11" selection-start-line="111" selection-start-column="2" selection-end-line="117" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/commons/contents/Contants.java">
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ContactsRemarkMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="123">
+          <caret line="172" column="122" selection-start-line="172" selection-start-column="122" selection-end-line="172" selection-end-column="122" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/commons/domain/ReturnObject.java">
+    <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/activity/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="-1316">
+          <caret line="18" column="106" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="106" />
           <folding>
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/contacts/detail.html">
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ContactsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="221">
+          <caret line="276" column="203" selection-start-line="276" selection-start-column="196" selection-end-line="276" selection-end-column="203" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/test.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/index.jsp">
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/ClueService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
-          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="45" />
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/settings/qx/user/login.jsp">
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ClueServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="49" column="55" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="55" />
+        <state relative-caret-position="3640">
+          <caret line="121" column="33" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1338#1339#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/index.jsp">
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="2275">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9310">
+          <caret line="266" column="120" selection-start-line="266" selection-start-column="109" selection-end-line="266" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/convert.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3465">
+          <caret line="99" column="52" selection-start-line="99" selection-start-column="52" selection-end-line="99" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/webapp/WEB-INF/pages/workbench/clue/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16940">
+          <caret line="484" column="178" selection-start-line="484" selection-start-column="178" selection-end-line="484" selection-end-column="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/TranRemarkMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6020">
+          <caret line="172" column="111" selection-start-line="172" selection-start-column="111" selection-end-line="172" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ContactsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2030">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/mapper/ClueMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="322" column="49" lean-forward="true" selection-start-line="322" selection-start-column="49" selection-end-line="322" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/service/impl/ActivityRemarkServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/resources/applicationContext-datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crm/src/main/java/crm/workbench/web/controller/ClueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2380">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

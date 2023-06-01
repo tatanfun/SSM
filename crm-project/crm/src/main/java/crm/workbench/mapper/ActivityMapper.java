@@ -56,14 +56,14 @@ public interface ActivityMapper {
      * @param map
      * @return
      */
-    List<Activity> selectActivityByConditionForPage(Map<String,Object> map);
+    List<Activity> selectActivityByConditionForPage(Map<String, Object> map);
 
     /**
      * 根据条件查询市场活动的总条数
      * @param map
      * @return
      */
-    int selectCountOfActivityByCondition(Map<String,Object> map);
+    int selectCountOfActivityByCondition(Map<String, Object> map);
 
     /**
      * 根据ids批量删除市场活动
@@ -112,4 +112,25 @@ public interface ActivityMapper {
      * @return
      */
     List<Activity> selectActivityForDetailByClueId(String clueId);
+
+    /**
+     * 根据name模糊查询市场活动，排除已经跟clueId关联过的市场活动
+     * @param map
+     * @return
+     */
+    List<Activity> selectActivityForDetailByNameClueId(Map<String, Object> map);
+
+    /**
+     * 根据ids查询市场活动的明细信息
+     * @param ids
+     * @return
+     */
+    List<Activity> selectActivityForDetailByIds(String[] ids);
+
+    /**
+     * 根据name模糊查询市场活动，并且查询那些跟clueId关联过的市场活动
+     * @param map
+     * @return
+     */
+    List<Activity> selectActivityForConvertByNameClueId(Map<String, Object> map);
 }
